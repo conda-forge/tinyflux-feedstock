@@ -1,5 +1,5 @@
 {% set name = "tinyflux" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tinyflux-{{ version }}.tar.gz
-  sha256: 2242e993af25ea6ee82d5fcda81e09651d3c77aa813b128e03081c5c264b321c
+  sha256: aa2f437eed158dea77451539fd883f19e751209f0fa711dbbe9bfcfa1c4405cf
 
 build:
   noarch: python
