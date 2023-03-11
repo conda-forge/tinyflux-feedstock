@@ -1,11 +1,11 @@
-About tinyflux
-==============
+About tinyflux-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tinyflux-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/citrusvanilla/tinyflux
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tinyflux-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Tiny Time-Series Database Optimized for Your Happiness
 
