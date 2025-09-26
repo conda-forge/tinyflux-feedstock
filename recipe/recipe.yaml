@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tinyflux
-  version: 1.0.1
+  version: "1.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tinyflux-${{ version }}.tar.gz
-  sha256: d8ed7d0fd8d8bfd2b1326a5d891f192fcdf1c54678bbeff3535d91ee8875a2eb
+  sha256: 64240e0ec303fb371077e86c92955072261c13cca25c285de0eb7eab8cdc18a5
 
 build:
   number: 0
@@ -30,7 +30,7 @@ tests:
       imports:
         - tinyflux
       pip_check: true
-      python_version:  ${{ python_min }}.*
+      python_version: ${{ python_min }}.*
 
 about:
   summary: The Tiny Time-Series Database Optimized for Your Happiness
