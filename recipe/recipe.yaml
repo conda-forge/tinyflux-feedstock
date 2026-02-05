@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tinyflux
-  version: "1.1.1"
+  version: "1.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tinyflux-${{ version }}.tar.gz
-  sha256: 64240e0ec303fb371077e86c92955072261c13cca25c285de0eb7eab8cdc18a5
+  sha256: 727a069ea8e4946c7c607005d7637b9ca48a4e47a7f7b7d5fb39b3b30a4e1dc3
 
 build:
   number: 0
